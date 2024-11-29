@@ -1,0 +1,7 @@
+vendor
+node_modules
+
+.vscode
+
+ch2/Sessions/**/sessions/*
+ch3/Sessions/sessions/*

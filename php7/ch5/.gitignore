@@ -1,0 +1,11 @@
+vendor
+node_modules
+
+storage/app/images/*
+!storage/app/images/README.md
+storage/sessions/*
+!storage/sessions/README.md
+storage/logs/*
+!storage/logs/README.md
+
+.vscode

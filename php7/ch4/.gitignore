@@ -1,0 +1,7 @@
+vendor
+node_modules
+
+uploads/*
+!uploads/README.md
+
+.vscode
