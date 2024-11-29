@@ -1,0 +1,6 @@
+{
+    "name": "php-courses-inflearn/php8-new-features",
+    "require": {
+        "php": "^8.0"
+    }
+}
