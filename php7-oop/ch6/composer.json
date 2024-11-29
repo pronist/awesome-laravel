@@ -1,0 +1,25 @@
+{
+    "scripts":{
+        "lint": "phpcs --standard=PSR12 -n --extensions=php --ignore=vendor ."
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../ch5",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.5.3"
+    },
+    "require": {
+        "pronist/eclair": "^0.0.1"
+    }
+}

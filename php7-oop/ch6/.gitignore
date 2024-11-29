@@ -1,0 +1,10 @@
+vendor
+node_modules
+composer.lock
+
+storage/app/images/*
+!storage/app/images/README.md
+storage/logs/*
+!storage/logs/README.md
+
+.vscode
